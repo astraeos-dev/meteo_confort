@@ -1,8 +1,26 @@
-# Météo & Confort pour Home Assistant
+<p align="center"><img src="assets/brand/icon.svg" width="128" height="128" alt="Météo &amp; Confort"></p>
 
-[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories/)
-[![Validate](https://github.com/Greg50100/meteo_confort/actions/workflows/validate.yml/badge.svg)](https://github.com/Greg50100/meteo_confort/actions/workflows/validate.yml)
-[![Release](https://img.shields.io/github/v/release/Greg50100/meteo_confort)](https://github.com/Greg50100/meteo_confort/releases)
+# Météo & Confort — météo dérivée et confort intérieur pour Home Assistant
+
+> Une intégration Home Assistant qui calcule, à partir de vos capteurs, le point de rosée, l'humidex, le confort
+> intérieur et le risque de moisissure, localement et sans dépendance.
+
+[![Version](https://img.shields.io/github/v/release/astraeos-dev/meteo_confort?label=version&color=f2b84b)](https://github.com/astraeos-dev/meteo_confort/releases/latest)
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5)](https://hacs.xyz/docs/faq/custom_repositories/)
+[![Validate](https://github.com/astraeos-dev/meteo_confort/actions/workflows/validate.yml/badge.svg)](https://github.com/astraeos-dev/meteo_confort/actions/workflows/validate.yml)
+[![Licence MIT](https://img.shields.io/github/license/astraeos-dev/meteo_confort?label=licence)](LICENSE)
+![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.12%2B-41BDF5?logo=homeassistant)
+
+<a href="https://buymeacoffee.com/gregorychau"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="40"></a>
+
+**Installer** : ajoutez ce dépôt dans HACS comme dépôt personnalisé (voir [Installation](#installation)). Une idée,
+un problème ? [Ouvrir une demande](https://github.com/astraeos-dev/meteo_confort/issues/new/choose).
+
+**Projet actif** · un des projets d'Astraeos : [site web](https://astraeos-dev.github.io/personnal-site/#/meteo-confort) ·
+[Helios](https://github.com/astraeos-dev/Helios) · [Céleste pour Home Assistant](https://github.com/astraeos-dev/Celeste_HA) ·
+[Océanos](https://github.com/astraeos-dev/Oc-anos)
+
+---
 
 Intégration personnalisée qui calcule, à partir de vos capteurs existants, des
 grandeurs **météorologiques dérivées** (point de rosée, humidex, refroidissement
@@ -20,10 +38,10 @@ et recalculé à chaque changement d'état d'un capteur source.
 
 ### HACS (dépôt personnalisé)
 
-[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Greg50100&repository=meteo_confort&category=integration)
+[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=astraeos-dev&repository=meteo_confort&category=integration)
 
 Ou manuellement :
-1. HACS → ⋮ → *Dépôts personnalisés* → `https://github.com/Greg50100/meteo_confort`, catégorie **Intégration**.
+1. HACS → ⋮ → *Dépôts personnalisés* → `https://github.com/astraeos-dev/meteo_confort`, catégorie **Intégration**.
 2. Installez **Météo & Confort**, puis redémarrez Home Assistant.
 
 ### Manuelle
