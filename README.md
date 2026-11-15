@@ -16,7 +16,7 @@
 **Installer** : ajoutez ce dépôt dans HACS comme dépôt personnalisé (voir [Installation](#installation)). Une idée,
 un problème ? [Ouvrir une demande](https://github.com/astraeos-dev/meteo_confort/issues/new/choose).
 
-**Projet actif** · un des projets d'Astraeos : [site web](https://astraeos-dev.github.io/personnal-site/#/meteo-confort) ·
+**Projet actif** · un des projets d'Astraeos : [site web](https://astraeos-dev.github.io/Gaia/#/meteo-confort) ·
 [Helios](https://github.com/astraeos-dev/Helios) · [Céleste pour Home Assistant](https://github.com/astraeos-dev/Celeste_HA) ·
 [Océanos](https://github.com/astraeos-dev/Oc-anos)
 
